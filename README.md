@@ -147,7 +147,6 @@ To swap an illustration for a real photo, replace the `<svg class="illo" ...>...
 - [ ] Set up form delivery (Formspree or Web3Forms, see above) and send a test message.
 - [ ] Replace the Instagram link (`href="#"`, 2 places: top bar and footer) or remove the icon.
 - [ ] Confirm opening days (currently Monday to Friday, 07:00 to 17:00).
-- [ ] Add the street address if there is one (Google Maps listing currently has none).
 - [ ] Replace illustrations with real photos where wanted (ask parents for consent before publishing photos of children).
 - [ ] Add a privacy policy page and link it in the footer (`Politika e privatësisë`).
 - [ ] Once the final URL is known, make `og:image` absolute (for example `https://<domain>/assets/img/og-image.png`) so Facebook and WhatsApp previews show the image.

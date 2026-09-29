@@ -56,8 +56,8 @@
     "en": "Every semester, activities that spark curiosity"
   },
   "addr": {
-    "sq": "Prishtinë, Kosovë",
-    "en": "Prishtina, Kosovo"
+    "sq": "Rruga C, Prishtinë",
+    "en": "Rruga C, Prishtina"
   },
   "age.03": {
     "sq": "0-3 vjeç",
@@ -158,6 +158,10 @@
   "code.text": {
     "sq": "Klasa teknologjie ku fëmijët mësojnë të mendojnë si krijues: logjikë, lojëra me kod dhe projektet e tyre të para në kompjuter.",
     "en": "Technology classes where children learn to think like creators: logic, coding games and their first computer projects."
+  },
+  "cta.contact": {
+    "sq": "Na kontaktoni",
+    "en": "Contact us"
   },
   "cta.enroll": {
     "sq": "Regjistro fëmijën",
@@ -307,17 +311,9 @@
     "sq": "E hënë - E premte, 07:00 - 17:00",
     "en": "Monday - Friday, 07:00 - 17:00"
   },
-  "map.dir": {
-    "sq": "Merr udhëzimet",
-    "en": "Get directions"
-  },
   "map.hint": {
     "sq": "Kliko për hartën e plotë",
     "en": "Click for the full map"
-  },
-  "map.open": {
-    "sq": "Hap në Google Maps",
-    "en": "Open in Google Maps"
   },
   "map.open.aria": {
     "sq": "Hap vendndodhjen e LET Center në Google Maps",

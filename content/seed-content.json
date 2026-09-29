@@ -8,10 +8,10 @@
     "phone_e164": "+38348166143",
     "email": "letcenterks@gmail.com",
     "address": {
-      "sq": "Prishtinë, Kosovë",
-      "en": "Prishtina, Kosovo"
+      "sq": "Rruga C, Prishtinë",
+      "en": "Rruga C, Prishtina"
     },
-    "street_address": null,
+    "street_address": "Rruga C",
     "city": {
       "sq": "Prishtinë",
       "en": "Prishtina"
@@ -43,6 +43,14 @@
     "facebook": "https://www.facebook.com/letcenterks",
     "instagram": null,
     "form_recipient": "letcenterks@gmail.com"
+  },
+  "header_cta": {
+    "label": {
+      "sq": "Na kontaktoni",
+      "en": "Contact us"
+    },
+    "href": "#kontakt",
+    "topic": "general"
   },
   "hero": {
     "title": {
@@ -108,7 +116,8 @@
         "icon": "shield",
         "tint": "mint"
       }
-    ]
+    ],
+    "cta_primary_topic": "enroll"
   },
   "trust": [
     {
@@ -596,14 +605,7 @@
       "sq": "Kliko për hartën e plotë",
       "en": "Click for the full map"
     },
-    "directions": {
-      "sq": "Merr udhëzimet",
-      "en": "Get directions"
-    },
-    "open": {
-      "sq": "Hap në Google Maps",
-      "en": "Open in Google Maps"
-    }
+    "address_links_to": "site.map_url"
   },
   "footer": {
     "about": {
@@ -655,13 +657,6 @@
           "en": "Gallery"
         },
         "href": "#galeria"
-      },
-      {
-        "label": {
-          "sq": "Kontakt",
-          "en": "Contact"
-        },
-        "href": "#kontakt"
       }
     ]
   },

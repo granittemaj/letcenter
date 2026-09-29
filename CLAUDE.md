@@ -23,12 +23,12 @@ Never invent copy, prices, statistics, testimonials, staff names or opening days
 |---|---|
 | Name | LET Center (Learning Education Tree) |
 | What | Education and care center for children 0 to 6 years, pre-primary (5-6, mandatory under MASHT since Sept 2024), and after-school day care for grades I to V |
-| City / country | Prishtinë (sq) / Prishtina (en), **Kosovo** (ISO country code `XK`) |
+| Address | **Rruga C, Prishtinë** (sq) / Rruga C, Prishtina (en), Kosovo (ISO country code `XK`) |
 | Phone | `+383 48 166 143` (E.164 `+38348166143`) |
 | Email (also form recipient) | `letcenterks@gmail.com` |
 | Hours | 07:00 to 17:00, Monday to Friday (**Saturday unconfirmed**) |
 | Coordinates | `42.647316648278846, 21.18307821035876` |
-| Google Maps | `https://maps.app.goo.gl/wHBF2mgiEHpUCPoY7` (place name "LET Center", no street address listed) |
+| Google Maps | `https://maps.app.goo.gl/wHBF2mgiEHpUCPoY7` (place name "LET Center") |
 | Facebook | `https://www.facebook.com/letcenterks` |
 | Instagram | unknown (TODO) |
 | Languages | Albanian (default, `sq`) and English (`en`) |
@@ -211,7 +211,7 @@ Admin menu: a top-level **"LET Center"** menu (dashicon `dashicons-palmtree` or 
 
 | Tab | Fields |
 |---|---|
-| Hero | `hero_title`, `hero_text`, `hero_cta_primary`, `hero_cta_secondary`, `hero_age_chips` (repeater: `label`, `tint`), `hero_badges` (repeater max 3: `label`, `icon`, `tint`), `hero_image` (image, optional: replaces the illustration inside the diamond) |
+| Hero | `hero_title`, `hero_text`, `hero_cta_primary` (default "Regjistro fëmijën"), `hero_cta_secondary`, `hero_age_chips` (repeater: `label`, `tint`), `hero_badges` (repeater max 3: `label`, `icon`, `tint`), `hero_image` (image, optional: replaces the illustration inside the diamond) |
 | Trust | `trust_items` (repeater exactly 4: `icon`, `title`, `text`) |
 | Programs | `programs_title`, `programs_text` (cards come from `let_program`) |
 | Activities | `activities_title`, `activities_text` (tiles come from `let_activity`) |
@@ -221,12 +221,14 @@ Admin menu: a top-level **"LET Center"** menu (dashicon `dashicons-palmtree` or 
 | Contact | `contact_title`, `contact_intro`, `contact_privacy`, `contact_topics` (repeater: `value` slug, `label`), `contact_success`, `contact_failure` |
 | Map | `map_title` |
 
+A `header_cta_label` text field (default "Na kontaktoni" / "Contact us") also lives on the front page group (Hero tab), so each language has its own label.
+
 **Options page** "LET Center -> Settings" (not per language; language-specific text uses `_sq` / `_en` suffixes and `let_setting()` picks the current language):
 
 | Tab | Fields |
 |---|---|
-| Contact | `phone_display`, `phone_e164`, `email`, `address_sq`, `address_en`, `street_address` (optional), `hours_days` (checkbox Mon to Sun), `hours_opens`, `hours_closes` |
-| Location | `lat`, `lng`, `map_url`, `directions_url` (auto-built from lat/lng if empty), `map_embed_consent` (true/false, default true) |
+| Contact | `phone_display`, `phone_e164`, `email`, `address_sq` ("Rruga C, Prishtinë"), `address_en` ("Rruga C, Prishtina"), `street_address` ("Rruga C", used in schema), `hours_days` (checkbox Mon to Sun), `hours_opens`, `hours_closes` |
+| Location | `lat`, `lng`, `map_url`, `map_embed_consent` (true/false, default true) |
 | Social | `facebook_url`, `instagram_url` (icon hidden when empty) |
 | Form | `form_recipient` (default `letcenterks@gmail.com`), `form_cc` (optional), `retention_months` (default 12), `turnstile_site_key`, `turnstile_secret` (optional), `autoreply_enabled` (default false) |
 | Advanced | `delete_data_on_uninstall` (default false), `output_schema` (default true), `output_meta` (default true) |
@@ -293,7 +295,7 @@ Output in `wp_head` on the front page (and a minimal version on program pages):
   "image": "<og image URL>",
   "telephone": "+38348166143",
   "email": "letcenterks@gmail.com",
-  "address": { "@type": "PostalAddress", "addressLocality": "Prishtinë", "addressCountry": "XK" },
+  "address": { "@type": "PostalAddress", "streetAddress": "Rruga C", "addressLocality": "Prishtinë", "addressCountry": "XK" },
   "geo": { "@type": "GeoCoordinates", "latitude": 42.647316648278846, "longitude": 21.18307821035876 },
   "hasMap": "https://maps.app.goo.gl/wHBF2mgiEHpUCPoY7",
   "openingHoursSpecification": [{ "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "17:00" }],
@@ -301,7 +303,7 @@ Output in `wp_head` on the front page (and a minimal version on program pages):
 }
 ```
 
-All values come from settings. Add `streetAddress` and Instagram to `sameAs` only when set.
+All values come from settings. Add Instagram to `sameAs` only when set.
 
 ### 6.7 Polylang integration
 
@@ -313,7 +315,7 @@ All values come from settings. Add `streetAddress` and Instagram to `sameAs` onl
 
 ### 6.8 Public helpers (used by the theme, all guarded with `function_exists`)
 
-`let_setting( $key, $default = '' )`, `let_lang()`, `let_t( $key )` (translated UI string from strings registry), `let_get_programs()`, `let_get_activities()`, `let_contact_topics()`, `let_form_timestamp()`, `let_phone_link()`, `let_directions_url()`.
+`let_setting( $key, $default = '' )`, `let_lang()`, `let_t( $key )` (translated UI string from strings registry), `let_get_programs()`, `let_get_activities()`, `let_contact_topics()`, `let_form_timestamp()`, `let_phone_link()`.
 
 ### 6.9 Privacy
 
@@ -331,7 +333,7 @@ All values come from settings. Add `streetAddress` and Instagram to `sameAs` onl
 2. Fills all front-page fields for each language.
 3. Creates 5 programs and 6 activities in both languages with `menu_order`, links translations, fills fields.
 4. Fills the options page from `site`.
-5. Creates menus `primary` in both languages (anchor links: `#programet`, `#aktivitetet`, `#letcode`, `#kampi`, `#galeria`, `#kontakt`) and footer menus.
+5. Creates menus `primary` in both languages (anchor links: `#programet`, `#aktivitetet`, `#letcode`, `#kampi`, `#galeria`; no "Kontakt" item, because the header button covers it) and footer menus.
 6. Creates an empty "Politika e privatësisë" / "Privacy policy" page pair and sets it as the WP privacy page.
 
 Idempotent: find existing posts by slug + language; skip unless `--force`.
@@ -389,8 +391,8 @@ wordpress/themes/let-center/
 | Prototype block (id) | Template part | Data source | Notes |
 |---|---|---|---|
 | Top bar | `header.php` | settings: address, hours, phone, social | Hidden under 640 px |
-| Header + mobile nav | `header.php` | menu `primary`, language switcher, `hero_cta_primary` | Enroll CTA carries `data-interest="enroll"` |
-| Hero | `sections/hero.php` | front page Hero tab | Illustration unless `hero_image` is set; image keeps the diamond frame |
+| Header + mobile nav | `header.php` | menu `primary`, language switcher, `header_cta` | Header button is **"Na kontaktoni" / "Contact us"** with `data-interest="general"`, never an enrollment label: the form handles questions of every kind. The menu has no separate "Kontakt" link. |
+| Hero | `sections/hero.php` | front page Hero tab | Illustration unless `hero_image` is set; image keeps the diamond frame. Primary button "Regjistro fëmijën" preselects topic `enroll`. |
 | Trust strip | `sections/trust.php` | `trust_items` | |
 | Programs `#programet` | `sections/programs.php` + `components/program-card.php` | `let_program` query | Heights and mobile widths by position (310 + 40n px; 78/84/90/95/100%) |
 | Activities `#aktivitetet` | `sections/activities.php` | `let_activity` | |
@@ -398,7 +400,7 @@ wordpress/themes/let-center/
 | Camp `#kampi` | `sections/camp.php` | Camp tab | CTA preselects topic `camp` |
 | Gallery `#galeria` | `sections/gallery.php` | `gallery_items` | Image if set, else fallback illustration; captions always shown |
 | Contact `#kontakt` | `sections/contact.php` | Contact tab + settings | Form posts to REST (7.5) |
-| Map `#harta` | `sections/map.php` | settings: lat/lng, map_url | Click-to-load embed (7.6) |
+| Map `#harta` | `sections/map.php` | settings: address, lat/lng, map_url | Title + one address line (pin icon + "Rruga C, Prishtinë", linking to Google Maps). No buttons. Click-to-load embed (7.6) |
 | Footer | `footer.php` | menus + settings | |
 
 Escape everything late: `esc_html`, `esc_attr`, `esc_url`, `wp_kses_post` for rich text. Illustrations are trusted theme files and can be included directly.
@@ -431,7 +433,7 @@ The form also contains hidden `_ts` (from `let_form_timestamp()`), `lang`, and t
 
 ### 7.6 Map
 
-Default: the illustrated map (`illustrations/map.php`) linking to `map_url`, with the "Get directions" and "Open in Google Maps" buttons. When `map_embed_consent` is on, add a button "Shfaq hartën interaktive" / "Show interactive map" that replaces the illustration with:
+Default: the illustrated map (`illustrations/map.php`) linking to `map_url`. Beside it only the title and the address line (pin icon + address, also linking to `map_url`). **No "Get directions" or "Open in Google Maps" buttons** (client decision). When `map_embed_consent` is on, add a button "Shfaq hartën interaktive" / "Show interactive map" that replaces the illustration with:
 
 ```html
 <iframe src="https://maps.google.com/maps?q={lat},{lng}&z=17&output=embed" loading="lazy"
@@ -576,7 +578,7 @@ Default wp-env login: `admin` / `password` at `http://localhost:8888/wp-admin`.
 ## 16. Open questions (do not guess; leave TODOs and ask)
 
 1. Is Saturday a working day? (Hours currently Monday to Friday, 07:00 to 17:00.)
-2. Street address, if any (the Google Maps place has none).
+2. ~~Street address~~ Resolved: Rruga C, Prishtinë.
 3. Instagram account.
 4. Real photos: which ones, and written parental consent for publishing children's photos.
 5. Domain name and hosting provider (affects SMTP setup and the absolute `og:image`).

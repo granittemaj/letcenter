@@ -15,10 +15,10 @@
 
   var EN = {
     'skip':'Skip to content',
-    'addr':'Prishtina, Kosovo',
+    'addr':'Rruga C, Prishtina',
     'hours':'Monday - Friday, 07:00 - 17:00',
     'nav.programs':'Programs','nav.activities':'Activities','nav.camp':'Summer Camp','nav.gallery':'Gallery','nav.contact':'Contact',
-    'cta.enroll':'Enroll your child',
+    'cta.enroll':'Enroll your child','cta.contact':'Contact us',
     'hero.chip':'Enrollment is open',
     'hero.title':'Strong roots, branches reaching for dreams.',
     'hero.text':'An education center in Prishtina for children from birth to fifth grade. Personal care, qualified staff and a day full of learning and play.',
@@ -65,7 +65,7 @@
     'foot.about':'Learning Education Tree. An education and care center for children in Prishtina, Kosovo.',
     'foot.p1':'Nursery 0-3 years','foot.p2':'Kindergarten 3-4 years','foot.p3':'Early learning 4-5','foot.p4':'Pre-primary 5-6 years','foot.p5':'After-school care I-V',
     'foot.center':'Center',
-    'map.title':'Find us in Prishtina','map.hint':'Click for the full map','map.dir':'Get directions','map.open':'Open in Google Maps','map.open.aria':'Open LET Center\u2019s location in Google Maps','foot.rights':'All rights reserved.','foot.privacy':'Privacy policy',
+    'map.title':'Find us in Prishtina','map.hint':'Click for the full map','map.open.aria':'Open LET Center\u2019s location in Google Maps','foot.rights':'All rights reserved.','foot.privacy':'Privacy policy',
     'aria.fb':'LET Center on Facebook','aria.ig':'LET Center on Instagram','aria.home':'LET Center, home','aria.nav':'Main navigation','aria.why':'Why LET Center'
   };
   var META = {
