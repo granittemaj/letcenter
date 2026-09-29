@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 400">
+<defs>
+<symbol id="kid" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q16 94 20 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q84 94 80 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M43 48 Q50 54 57 48" fill="none" stroke="#2A1B22" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+  <symbol id="kid-up" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q12 58 14 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q88 58 86 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M42 47 Q50 56 58 47" fill="#2A1B22"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+</defs>
+<rect width="300" height="400" fill="#DCEBFF"/>
+            <circle cx="232" cy="70" r="26" fill="#FFC93C"/>
+            <rect x="0" y="206" width="300" height="12" fill="#FFFFFF"/>
+            <use href="#kid-up" x="64" y="126" width="78" height="133" style="--skin:#C68863;--hair:#1F1A1A;--shirt:#FFC93C;--pants:#2A1B22;--pig:1"/>
+            <use class="bob-b" href="#kid" x="158" y="136" width="74" height="126" style="--skin:#F6D2B8;--hair:#7A4A2A;--shirt:#D91A36;--pants:#3D4A7A"/>
+            <g class="drift"><path d="M-100 238 Q-75 226 -50 238 T0 238 T50 238 T100 238 T150 238 T200 238 T250 238 T300 238 T350 238 T400 238 V400 H-100Z" fill="#4E8FDB" opacity=".94"/></g>
+            <g class="drift-slow"><path d="M20 280 Q40 270 60 280 T100 280 M150 300 Q170 290 190 300 T230 300 M60 340 Q80 330 100 340 T140 340 M190 360 Q210 350 230 360 T270 360" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity=".55"/></g>
+            <g class="bob-a">
+            <ellipse cx="195" cy="240" rx="46" ry="15" fill="none" stroke="#D91A36" stroke-width="12"/>
+            <ellipse cx="195" cy="240" rx="46" ry="15" fill="none" stroke="#FFFFFF" stroke-width="12" stroke-dasharray="14 22"/>
+            </g>
+            <circle class="twinkle" cx="52" cy="206" r="5" fill="#FFFFFF"/><circle cx="40" cy="194" r="3.5" fill="#FFFFFF"/><circle class="twinkle" style="animation-delay:.8s" cx="252" cy="200" r="4" fill="#FFFFFF"/>
+</svg>

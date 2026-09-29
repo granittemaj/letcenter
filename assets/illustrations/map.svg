@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 440">
+<defs>
+<symbol id="kid" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q16 94 20 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q84 94 80 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M43 48 Q50 54 57 48" fill="none" stroke="#2A1B22" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+  <symbol id="kid-up" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q12 58 14 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q88 58 86 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M42 47 Q50 56 58 47" fill="#2A1B22"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+</defs>
+<rect width="800" height="440" fill="#EDF1E6"/>
+            <path d="M540 290 Q600 262 690 286 Q760 310 748 380 Q730 440 640 436 Q560 432 534 380 Q516 318 540 290Z" fill="#C4E5C9"/>
+            <circle cx="600" cy="330" r="16" fill="#A3D5AC"/><circle cx="650" cy="360" r="20" fill="#A3D5AC"/><circle cx="700" cy="330" r="14" fill="#A3D5AC"/><circle cx="610" cy="392" r="13" fill="#A3D5AC"/>
+            <g fill="#E3DDD1">
+              <rect x="40" y="20" width="90" height="56" rx="8"/><rect x="170" y="24" width="140" height="52" rx="8"/><rect x="350" y="18" width="150" height="58" rx="8"/><rect x="540" y="20" width="130" height="50" rx="8"/><rect x="710" y="24" width="80" height="54" rx="8"/>
+              <rect x="40" y="112" width="90" height="118" rx="8"/><rect x="170" y="112" width="140" height="60" rx="8"/><rect x="540" y="110" width="130" height="64" rx="8"/><rect x="710" y="110" width="80" height="120" rx="8"/>
+              <rect x="40" y="276" width="90" height="100" rx="8"/><rect x="170" y="300" width="140" height="80" rx="8"/><rect x="350" y="292" width="150" height="96" rx="8"/>
+            </g>
+            <g fill="none" stroke-linecap="round">
+              <path d="M-20 92 H820 M-20 256 Q400 244 820 262 M150 -20 V460 M330 -20 Q322 220 336 460 M520 -20 V460 M690 -20 V460" stroke="#DCD5C7" stroke-width="24"/>
+              <path d="M-20 92 H820 M-20 256 Q400 244 820 262 M150 -20 V460 M330 -20 Q322 220 336 460 M520 -20 V460 M690 -20 V460" stroke="#FFFFFF" stroke-width="18"/>
+              <path d="M-20 400 L820 150" stroke="#EDC04C" stroke-width="30"/>
+              <path d="M-20 400 L820 150" stroke="#FFD66B" stroke-width="24"/>
+            </g>
+            <ellipse cx="400" cy="226" rx="16" ry="6" fill="#2A1B22" opacity=".18"/>
+            <circle class="map-pulse" cx="400" cy="222" r="34" fill="#D91A36" opacity=".18"/>
+            <g class="pin-drop">
+            <path d="M400 224 C380 200 360 184 360 158 A40 40 0 1 1 440 158 C440 184 420 200 400 224Z" fill="#D91A36" stroke="#FFFFFF" stroke-width="4"/>
+            <circle cx="400" cy="158" r="28" fill="#FFFFFF"/>
+            <image href="../img/let-mark.webp" x="382" y="140" width="36" height="37"/>
+            <rect x="452" y="134" width="138" height="42" rx="21" fill="#FFFFFF"/>
+            <text x="521" y="162" text-anchor="middle" font-family="Fredoka, Nunito, sans-serif" font-weight="700" font-size="20" fill="#2A1B22">LET Center</text>
+            </g>
+</svg>

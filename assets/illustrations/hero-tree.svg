@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 400 400">
+<defs>
+<symbol id="kid" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q16 94 20 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q84 94 80 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M43 48 Q50 54 57 48" fill="none" stroke="#2A1B22" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+  <symbol id="kid-up" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q12 58 14 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q88 58 86 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M42 47 Q50 56 58 47" fill="#2A1B22"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+</defs>
+<rect width="400" height="400" fill="#FFE9E2"/>
+              <circle cx="286" cy="96" r="28" fill="#FFC93C"/>
+              <ellipse cx="200" cy="392" rx="290" ry="112" fill="#BDE8CF"/>
+              <ellipse cx="200" cy="298" rx="120" ry="12" fill="#9ED9B4"/>
+              <path d="M186 300 Q191 244 189 186 L211 186 Q209 244 214 300Z" fill="#8A5A3C"/>
+              <path d="M196 214 Q170 196 158 170 M204 206 Q228 190 240 164" fill="none" stroke="#8A5A3C" stroke-width="9" stroke-linecap="round"/>
+              <g class="sway">
+              <circle cx="146" cy="146" r="42" fill="#E8465E"/>
+              <circle cx="254" cy="146" r="42" fill="#E8465E"/>
+              <circle cx="200" cy="118" r="62" fill="#D91A36"/>
+              <circle cx="166" cy="90" r="34" fill="#F06B80"/>
+              <circle cx="232" cy="86" r="32" fill="#F06B80"/>
+              <circle cx="200" cy="162" r="40" fill="#D91A36"/>
+              <rect x="176" y="112" width="12" height="12" rx="3" transform="rotate(45 182 118)" fill="#FFFFFF" opacity=".85"/>
+              <rect x="218" y="134" width="10" height="10" rx="2.5" transform="rotate(45 223 139)" fill="#FFFFFF" opacity=".85"/>
+              <rect x="140" y="140" width="9" height="9" rx="2" transform="rotate(45 144.5 144.5)" fill="#FFC93C"/>
+              <rect x="252" y="110" width="9" height="9" rx="2" transform="rotate(45 256.5 114.5)" fill="#FFC93C"/>
+              </g>
+              <use href="#kid" x="112" y="198" width="60" height="102" style="--skin:#F6D2B8;--hair:#7A4A2A;--shirt:#5B9BE6;--pants:#3D4A7A"/>
+              <use class="hop-loop" href="#kid-up" x="169" y="186" width="62" height="105" style="--skin:#C68863;--hair:#1F1A1A;--shirt:#FFC93C;--pants:#2A1B22;--pig:1"/>
+              <use href="#kid" x="228" y="198" width="60" height="102" style="--skin:#8D5A3B;--hair:#1F1A1A;--shirt:#3FB27F;--pants:#2A1B22"/>
+              <circle cx="292" cy="300" r="12" fill="#FFC93C" stroke="#FFFFFF" stroke-width="3"/>
+</svg>

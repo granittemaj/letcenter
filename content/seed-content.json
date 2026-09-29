@@ -1,0 +1,678 @@
+{
+  "_about": "Structured content for seeding WordPress (see CLAUDE.md, Phase 4). Every text has sq (default) and en. Keys match content/strings.json.",
+  "site": {
+    "name": "LET Center",
+    "legal_name": "LET Center",
+    "tagline": "Learning Education Tree",
+    "phone_display": "+383 48 166 143",
+    "phone_e164": "+38348166143",
+    "email": "letcenterks@gmail.com",
+    "address": {
+      "sq": "Prishtinë, Kosovë",
+      "en": "Prishtina, Kosovo"
+    },
+    "street_address": null,
+    "city": {
+      "sq": "Prishtinë",
+      "en": "Prishtina"
+    },
+    "country_code": "XK",
+    "hours": {
+      "days": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "07:00",
+      "closes": "17:00",
+      "label": {
+        "sq": "E hënë - E premte, 07:00 - 17:00",
+        "en": "Monday - Friday, 07:00 - 17:00"
+      },
+      "_todo": "Confirm whether Saturday is included"
+    },
+    "geo": {
+      "lat": 42.647316648278846,
+      "lng": 21.18307821035876
+    },
+    "map_url": "https://maps.app.goo.gl/wHBF2mgiEHpUCPoY7",
+    "directions_url": "https://www.google.com/maps/dir/?api=1&destination=42.647316648278846,21.18307821035876",
+    "map_embed_url": "https://maps.google.com/maps?q=42.647316648278846,21.18307821035876&z=17&output=embed",
+    "facebook": "https://www.facebook.com/letcenterks",
+    "instagram": null,
+    "form_recipient": "letcenterks@gmail.com"
+  },
+  "hero": {
+    "title": {
+      "sq": "Rrënjë të forta, degë drejt ëndrrave.",
+      "en": "Strong roots, branches reaching for dreams."
+    },
+    "text": {
+      "sq": "Qendër edukative në Prishtinë për fëmijë nga 0 vjeç deri në klasën e pestë. Kujdes i veçantë, staf i kualifikuar dhe një ditë plot mësim e lojë.",
+      "en": "An education center in Prishtina for children from birth to fifth grade. Personal care, qualified staff and a day full of learning and play."
+    },
+    "cta_primary": {
+      "sq": "Regjistro fëmijën",
+      "en": "Enroll your child"
+    },
+    "cta_secondary": {
+      "sq": "Shiko programet",
+      "en": "See our programs"
+    },
+    "age_chips": [
+      {
+        "sq": "0-3 vjeç",
+        "en": "0-3 years"
+      },
+      {
+        "sq": "3-4 vjeç",
+        "en": "3-4 years"
+      },
+      {
+        "sq": "4-5 vjeç",
+        "en": "4-5 years"
+      },
+      {
+        "sq": "Parafillor 5-6",
+        "en": "Pre-primary 5-6"
+      },
+      {
+        "sq": "Klasa I-V",
+        "en": "Grades I-V"
+      }
+    ],
+    "badges": [
+      {
+        "label": {
+          "sq": "Terapi muzikore",
+          "en": "Music therapy"
+        },
+        "icon": "music",
+        "tint": "butter"
+      },
+      {
+        "label": {
+          "sq": "LET Code for Kids",
+          "en": "LET Code for Kids"
+        },
+        "icon": "code",
+        "tint": "sky"
+      },
+      {
+        "label": {
+          "sq": "Pediatër dhe psikolog",
+          "en": "Pediatrician and psychologist"
+        },
+        "icon": "shield",
+        "tint": "mint"
+      }
+    ]
+  },
+  "trust": [
+    {
+      "icon": "users",
+      "title": {
+        "sq": "Staf i kualifikuar",
+        "en": "Qualified staff"
+      },
+      "text": {
+        "sq": "Edukatorë të përkushtuar për çdo grupmoshë.",
+        "en": "Dedicated educators for every age group."
+      }
+    },
+    {
+      "icon": "heart",
+      "title": {
+        "sq": "Takime me psikologun",
+        "en": "Psychologist sessions"
+      },
+      "text": {
+        "sq": "Mbështetje për zhvillimin emocional të fëmijës.",
+        "en": "Support for your child’s emotional development."
+      }
+    },
+    {
+      "icon": "shield",
+      "title": {
+        "sq": "Kontrolla me pediatrin",
+        "en": "Pediatric checkups"
+      },
+      "text": {
+        "sq": "Kontrolla sistematike të shëndetit në qendër.",
+        "en": "Regular health checkups at the center."
+      }
+    },
+    {
+      "icon": "book",
+      "title": {
+        "sq": "Parafillor sipas MASHT",
+        "en": "MASHT pre-primary"
+      },
+      "text": {
+        "sq": "Përgatitje e plotë për klasën e parë.",
+        "en": "Full preparation for first grade."
+      }
+    }
+  ],
+  "programs_section": {
+    "title": {
+      "sq": "Rritet bashkë me fëmijën tuaj",
+      "en": "Growing up together with your child"
+    },
+    "text": {
+      "sq": "Nga hapat e parë deri në klasën e pestë, çdo program ndërtohet mbi atë që fëmija ka mësuar më parë.",
+      "en": "From first steps to fifth grade, every program builds on what your child has already learned."
+    }
+  },
+  "programs": [
+    {
+      "slug": "cerdhe",
+      "order": 1,
+      "age_label": "0-3",
+      "unit": {
+        "sq": "vjeç",
+        "en": "years"
+      },
+      "tint": "rose",
+      "title": {
+        "sq": "Çerdhe",
+        "en": "Nursery"
+      },
+      "excerpt": {
+        "sq": "Kujdes i butë, rutinë e qetë dhe lojëra shqisore për hapat e parë.",
+        "en": "Gentle care, a calm routine and sensory play for the very first steps."
+      },
+      "badge": null
+    },
+    {
+      "slug": "kopsht",
+      "order": 2,
+      "age_label": "3-4",
+      "unit": {
+        "sq": "vjeç",
+        "en": "years"
+      },
+      "tint": "butter",
+      "title": {
+        "sq": "Kopsht",
+        "en": "Kindergarten"
+      },
+      "excerpt": {
+        "sq": "Socializim me bashkëmoshatarët, gjuhë, muzikë dhe lojë e lirë.",
+        "en": "Making friends, language, music and free play."
+      },
+      "badge": null
+    },
+    {
+      "slug": "programi-edukativ",
+      "order": 3,
+      "age_label": "4-5",
+      "unit": {
+        "sq": "vjeç",
+        "en": "years"
+      },
+      "tint": "mint",
+      "title": {
+        "sq": "Programi edukativ",
+        "en": "Early learning"
+      },
+      "excerpt": {
+        "sq": "Mësim përmes lojës: numra, shkronja, natyrë dhe kreativitet.",
+        "en": "Learning through play: numbers, letters, nature and creativity."
+      },
+      "badge": null
+    },
+    {
+      "slug": "parafillor",
+      "order": 4,
+      "age_label": "5-6",
+      "unit": {
+        "sq": "vjeç",
+        "en": "years"
+      },
+      "tint": "sky",
+      "title": {
+        "sq": "Parafillor",
+        "en": "Pre-primary"
+      },
+      "excerpt": {
+        "sq": "Përgatitje e plotë për klasën e parë: lexim, numërim dhe pavarësi.",
+        "en": "Full preparation for first grade: reading, counting and independence."
+      },
+      "badge": {
+        "sq": "Obligueshëm nga MASHT",
+        "en": "Mandatory under MASHT"
+      }
+    },
+    {
+      "slug": "qendrim-ditor",
+      "order": 5,
+      "age_label": "I-V",
+      "unit": {
+        "sq": "klasa",
+        "en": "grades"
+      },
+      "tint": "lilac",
+      "title": {
+        "sq": "Qendrim ditor",
+        "en": "After-school care"
+      },
+      "excerpt": {
+        "sq": "Pas shkollës: detyrat e shtëpisë me mbikëqyrje dhe aktivitete të lira.",
+        "en": "After school: supervised homework and free activities."
+      },
+      "badge": null
+    }
+  ],
+  "activities_section": {
+    "title": {
+      "sq": "Çdo semestër, aktivitete që ndezin kureshtjen",
+      "en": "Every semester, activities that spark curiosity"
+    },
+    "text": {
+      "sq": "Krahas programit ditor, fëmijët marrin pjesë në këto aktivitete me trajnerë dhe mësues të specializuar.",
+      "en": "Alongside the daily program, children take part in these activities with specialized coaches and teachers."
+    }
+  },
+  "activities": [
+    {
+      "order": 1,
+      "icon": "code",
+      "tint": "sky",
+      "title": {
+        "sq": "Kodim dhe shkenca kompjuterike",
+        "en": "Coding and computer science"
+      },
+      "text": {
+        "sq": "Logjika e programimit përmes lojërave dhe projekteve të vogla.",
+        "en": "Programming logic through games and small projects."
+      }
+    },
+    {
+      "order": 2,
+      "icon": "music",
+      "tint": "butter",
+      "title": {
+        "sq": "Terapi muzikore",
+        "en": "Music therapy"
+      },
+      "text": {
+        "sq": "Ritëm, këngë dhe instrumente për shprehje dhe qetësi.",
+        "en": "Rhythm, songs and instruments for expression and calm."
+      }
+    },
+    {
+      "order": 3,
+      "icon": "chess",
+      "tint": "lilac",
+      "title": {
+        "sq": "Ora e shahut",
+        "en": "Chess hour"
+      },
+      "text": {
+        "sq": "Përqendrim, durim dhe mendim strategjik që në moshë të vogël.",
+        "en": "Focus, patience and strategic thinking from an early age."
+      }
+    },
+    {
+      "order": 4,
+      "icon": "chat",
+      "tint": "rose",
+      "title": {
+        "sq": "Gjuhë angleze",
+        "en": "English"
+      },
+      "text": {
+        "sq": "Anglisht përmes lojës, këngëve dhe bisedës së përditshme.",
+        "en": "English through play, songs and everyday conversation."
+      }
+    },
+    {
+      "order": 5,
+      "icon": "gym",
+      "tint": "mint",
+      "title": {
+        "sq": "Gjimnastikë dhe karate",
+        "en": "Gymnastics and karate"
+      },
+      "text": {
+        "sq": "Lëvizje, disiplinë dhe vetëbesim në çdo stërvitje.",
+        "en": "Movement, discipline and confidence in every session."
+      }
+    },
+    {
+      "order": 6,
+      "icon": "spark",
+      "tint": "butter",
+      "title": {
+        "sq": "Vallëzim",
+        "en": "Dance"
+      },
+      "text": {
+        "sq": "Koordinim, muzikë dhe shumë gëzim në grup.",
+        "en": "Coordination, music and lots of joy together."
+      }
+    }
+  ],
+  "let_code": {
+    "title": {
+      "sq": "LET Code for Kids",
+      "en": "LET Code for Kids"
+    },
+    "text": {
+      "sq": "Klasa teknologjie ku fëmijët mësojnë të mendojnë si krijues: logjikë, lojëra me kod dhe projektet e tyre të para në kompjuter.",
+      "en": "Technology classes where children learn to think like creators: logic, coding games and their first computer projects."
+    },
+    "tags": [
+      {
+        "sq": "Logjikë",
+        "en": "Logic"
+      },
+      {
+        "sq": "Lojëra me kod",
+        "en": "Coding games"
+      },
+      {
+        "sq": "Projektet e para",
+        "en": "First projects"
+      },
+      {
+        "sq": "Edhe në kampin veror",
+        "en": "At summer camp too"
+      }
+    ],
+    "cta": {
+      "sq": "Pyet për LET Code",
+      "en": "Ask about LET Code"
+    },
+    "sticker": {
+      "sq": "We are the future",
+      "en": "We are the future"
+    },
+    "cta_topic": "code"
+  },
+  "camp": {
+    "label": {
+      "sq": "Kampi Veror",
+      "en": "Summer Camp"
+    },
+    "title": {
+      "sq": "Një verë plot not, anglisht dhe kod",
+      "en": "A summer full of swimming, English and code"
+    },
+    "text": {
+      "sq": "Mësimet e notit rrisin vetëbesimin dhe i mësojnë fëmijët për sigurinë në ujë. Anglishtja bëhet lojë, ndërsa çdo javë takojmë krijuesit e ardhshëm në klasat e teknologjisë.",
+      "en": "Swimming lessons build confidence and teach children water safety. English becomes a game, and every week we meet future creators in our technology classes."
+    },
+    "checks": [
+      {
+        "sq": "Not dhe siguri në ujë",
+        "en": "Swimming and water safety"
+      },
+      {
+        "sq": "Anglisht përmes lojës",
+        "en": "English through play"
+      },
+      {
+        "sq": "LET Code for Kids çdo javë",
+        "en": "LET Code for Kids every week"
+      }
+    ],
+    "cta": {
+      "sq": "Më njofto për regjistrimet",
+      "en": "Notify me about enrollment"
+    },
+    "cta_topic": "camp"
+  },
+  "gallery": {
+    "title": {
+      "sq": "Nga jeta në LET",
+      "en": "Life at LET"
+    },
+    "text": {
+      "sq": "Momentet tona të përditshme i ndajmë çdo javë në Facebook.",
+      "en": "We share our everyday moments on Facebook every week."
+    },
+    "cta": {
+      "sq": "Na ndiq në Facebook",
+      "en": "Follow us on Facebook"
+    },
+    "items": [
+      {
+        "caption": {
+          "sq": "Festa e vjeshtës",
+          "en": "Autumn party"
+        },
+        "illustration": "autumn"
+      },
+      {
+        "caption": {
+          "sq": "Ora e shahut",
+          "en": "Chess hour"
+        },
+        "illustration": "chess"
+      },
+      {
+        "caption": {
+          "sq": "Gjimnastikë",
+          "en": "Gymnastics"
+        },
+        "illustration": "gymnastics"
+      },
+      {
+        "caption": {
+          "sq": "Vallëzim",
+          "en": "Dance"
+        },
+        "illustration": "dance"
+      }
+    ]
+  },
+  "contact": {
+    "title": {
+      "sq": "Na kontaktoni",
+      "en": "Contact us"
+    },
+    "intro": {
+      "sq": "Keni pyetje për programet, regjistrimin apo dëshironi të vizitoni qendrën? Na shkruani dhe ju përgjigjemi sa më shpejt.",
+      "en": "Questions about our programs or enrollment, or would you like to visit the center? Write to us and we’ll get back to you as soon as possible."
+    },
+    "privacy": {
+      "sq": "Plotësoni email-in ose telefonin. Të dhënat përdoren vetëm për t'ju përgjigjur.",
+      "en": "Add your email or phone. We only use your details to reply to you."
+    },
+    "send": {
+      "sq": "Dërgo mesazhin",
+      "en": "Send message"
+    },
+    "success": {
+      "sq": "Faleminderit! Mesazhi u dërgua. Ju përgjigjemi së shpejti.",
+      "en": "Thank you! Your message has been sent. We’ll get back to you soon."
+    },
+    "topics": [
+      {
+        "value": "general",
+        "label": {
+          "sq": "Pyetje e përgjithshme",
+          "en": "General question"
+        }
+      },
+      {
+        "value": "enroll",
+        "label": {
+          "sq": "Regjistrim",
+          "en": "Enrollment"
+        }
+      },
+      {
+        "value": "visit",
+        "label": {
+          "sq": "Vizitë në qendër",
+          "en": "Visit the center"
+        }
+      },
+      {
+        "value": "programs",
+        "label": {
+          "sq": "Programet",
+          "en": "Programs"
+        }
+      },
+      {
+        "value": "code",
+        "label": {
+          "sq": "LET Code for Kids",
+          "en": "LET Code for Kids"
+        }
+      },
+      {
+        "value": "camp",
+        "label": {
+          "sq": "Kampi Veror",
+          "en": "Summer Camp"
+        }
+      },
+      {
+        "value": "other",
+        "label": {
+          "sq": "Tjetër",
+          "en": "Other"
+        }
+      }
+    ],
+    "fields": {
+      "topic": {
+        "sq": "Tema",
+        "en": "Subject"
+      },
+      "name": {
+        "sq": "Emri dhe mbiemri",
+        "en": "Full name"
+      },
+      "email": {
+        "sq": "Email-i",
+        "en": "Email"
+      },
+      "phone": {
+        "sq": "Numri i telefonit",
+        "en": "Phone number"
+      },
+      "age": {
+        "sq": "Mosha e fëmijës (opsional)",
+        "en": "Child’s age (optional)"
+      },
+      "message": {
+        "sq": "Mesazhi juaj",
+        "en": "Your message"
+      }
+    },
+    "errors": {
+      "name": {
+        "sq": "Shkruani emrin dhe mbiemrin.",
+        "en": "Please enter your full name."
+      },
+      "contact": {
+        "sq": "Shkruani një email ose numër telefoni të vlefshëm.",
+        "en": "Please enter a valid email or phone number."
+      },
+      "message": {
+        "sq": "Shkruani mesazhin tuaj.",
+        "en": "Please write your message."
+      }
+    },
+    "failure": {
+      "sq": "Mesazhi nuk u dërgua. Na telefononi në +383 48 166 143 ose na shkruani në letcenterks@gmail.com.",
+      "en": "Your message could not be sent. Please call us at +383 48 166 143 or email letcenterks@gmail.com."
+    }
+  },
+  "map": {
+    "title": {
+      "sq": "Na gjeni në Prishtinë",
+      "en": "Find us in Prishtina"
+    },
+    "hint": {
+      "sq": "Kliko për hartën e plotë",
+      "en": "Click for the full map"
+    },
+    "directions": {
+      "sq": "Merr udhëzimet",
+      "en": "Get directions"
+    },
+    "open": {
+      "sq": "Hap në Google Maps",
+      "en": "Open in Google Maps"
+    }
+  },
+  "footer": {
+    "about": {
+      "sq": "Learning Education Tree. Qendër edukative dhe përkujdesëse për fëmijë në Prishtinë, Kosovë.",
+      "en": "Learning Education Tree. An education and care center for children in Prishtina, Kosovo."
+    },
+    "rights": {
+      "sq": "Të gjitha të drejtat e rezervuara.",
+      "en": "All rights reserved."
+    },
+    "privacy": {
+      "sq": "Politika e privatësisë",
+      "en": "Privacy policy"
+    }
+  },
+  "menus": {
+    "primary": [
+      {
+        "label": {
+          "sq": "Programet",
+          "en": "Programs"
+        },
+        "href": "#programet"
+      },
+      {
+        "label": {
+          "sq": "Aktivitetet",
+          "en": "Activities"
+        },
+        "href": "#aktivitetet"
+      },
+      {
+        "label": {
+          "sq": "LET Code",
+          "en": "LET Code"
+        },
+        "href": "#letcode"
+      },
+      {
+        "label": {
+          "sq": "Kampi Veror",
+          "en": "Summer Camp"
+        },
+        "href": "#kampi"
+      },
+      {
+        "label": {
+          "sq": "Galeria",
+          "en": "Gallery"
+        },
+        "href": "#galeria"
+      },
+      {
+        "label": {
+          "sq": "Kontakt",
+          "en": "Contact"
+        },
+        "href": "#kontakt"
+      }
+    ]
+  },
+  "seo": {
+    "title": {
+      "sq": "LET Center | Learning Education Tree, Prishtinë, Kosovë",
+      "en": "LET Center | Learning Education Tree, Prishtina, Kosovo"
+    },
+    "description": {
+      "sq": "LET Center: qendër edukative në Prishtinë, Kosovë, për fëmijë 0-6 vjeç dhe qendrim ditor për klasat I-V.",
+      "en": "LET Center: an education center in Prishtina, Kosovo, for children aged 0-6 and after-school care for grades I-V."
+    }
+  }
+}

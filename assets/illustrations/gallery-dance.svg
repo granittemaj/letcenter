@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+<defs>
+<symbol id="kid" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q16 94 20 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q84 94 80 116" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M43 48 Q50 54 57 48" fill="none" stroke="#2A1B22" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+  <symbol id="kid-up" viewBox="0 0 100 170">
+    <rect x="34" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <rect x="52" y="116" width="14" height="44" rx="7" style="fill:var(--pants,#3D4A7A)"/>
+    <path d="M30 74 Q12 58 14 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <path d="M70 74 Q88 58 86 32" fill="none" stroke-width="10" stroke-linecap="round" style="stroke:var(--skin,#F6D2B8)"/>
+    <rect x="26" y="60" width="48" height="66" rx="22" style="fill:var(--shirt,#D91A36)"/>
+    <circle cx="23" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="77" cy="42" r="8" style="fill:var(--hair,#3B2A20);opacity:var(--pig,0)"/>
+    <circle cx="50" cy="11" r="9" style="fill:var(--hair,#3B2A20);opacity:var(--bun,0)"/>
+    <circle cx="50" cy="36" r="24" style="fill:var(--skin,#F6D2B8)"/>
+    <path d="M26 37 A24 24 0 0 1 74 37 Q66 25 50 26 Q34 25 26 37Z" style="fill:var(--hair,#3B2A20)"/>
+    <circle cx="42" cy="39" r="2.8" fill="#2A1B22"/><circle cx="58" cy="39" r="2.8" fill="#2A1B22"/>
+    <path d="M42 47 Q50 56 58 47" fill="#2A1B22"/>
+    <circle cx="36" cy="46" r="4" fill="#FF7F96" opacity=".45"/><circle cx="64" cy="46" r="4" fill="#FF7F96" opacity=".45"/>
+  </symbol>
+</defs>
+<rect width="300" height="300" fill="#FFF1C7"/>
+            <g fill="#D91A36" class="bob-a"><circle cx="70" cy="86" r="9"/><rect x="76" y="46" width="4" height="40" rx="2"/><path d="M80 46 Q96 52 92 66 Q90 56 80 56Z"/></g>
+            <g fill="#9B7BE0" class="bob-b"><circle cx="232" cy="70" r="8"/><circle cx="256" cy="64" r="8"/><rect x="237" y="36" width="4" height="34" rx="2"/><rect x="261" y="30" width="4" height="34" rx="2"/><path d="M237 36 L265 30 V38 L237 44Z"/></g>
+            <use href="#kid-up" x="46" y="112" width="96" height="163" style="--skin:#F6D2B8;--hair:#E3B04B;--shirt:#3FB27F;--pants:#3D4A7A;--pig:1"/>
+            <use href="#kid-up" x="156" y="112" width="96" height="163" style="--skin:#C68863;--hair:#1F1A1A;--shirt:#D91A36;--pants:#2A1B22"/>
+</svg>
